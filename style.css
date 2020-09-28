@@ -1,0 +1,158 @@
+html{
+background-color: rgb(4, 61, 61);
+}
+body{
+     margin: 0 auto;
+    padding: auto;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+
+}
+ header{
+    color: white;
+    text-shadow: 6px 6px 12px black;
+    border-radius: 40px 40px 0px 0px;
+    font-family: cursive;
+    background: linear-gradient(to top left,rgb(78, 65, 65),rgba(88, 18, 179, 0.979));
+    width: 100%;
+   height: 15vh;
+    text-align: center; 
+
+} 
+
+header h1{
+  margin-top: 0px;
+}
+
+#section1{
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: linear-gradient(to top right,rgb(52, 148, 92),rgb(3, 93, 121));
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto
+}
+.newText {
+	box-sizing: border-box;   
+    font-weight: bolder;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    background: linear-gradient(to top right,rgb(21, 136, 151),rgb(4, 177, 230));
+    background-color: cornflowerblue;
+    transition: 1s all ease;
+}
+
+.newText:hover{
+    transform: scale(1.2);
+}
+
+.newText2{
+    text-decoration-line: line-through;
+}
+#section2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(4, 61, 61);
+}
+#but{
+    font-size: 20px;
+    font-family: cursive;
+    color: blanchedalmond;
+    margin-left: 20px;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to top right,rgb(40, 5, 68),rgb(77, 46, 7, 0.979));
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 30px;
+}
+
+input{
+    font-family: cursive;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    background: linear-gradient(to top right,rgb(17, 109, 133),rgba(161, 208, 216, 0.979));
+    border: 6px solid rgb(110, 6, 6);
+    border-radius: 20px;
+    outline: none;
+    transition: 1s all;
+    margin-top: 30px;
+}
+input:hover{
+transform: scale(1.1);
+}
+
+
+
+.delets {
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 70px;
+    border: 4px solid black;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(9, 238, 59, 0.739);
+     vertical-align: bottom;
+      font-family: cursive;
+     color: black;
+     outline: none;
+     transition: 1s all;
+}
+.delets:hover{
+    background-color: red;
+}
+
+
+/* // media  */
+
+@media screen and (max-width: 600px){
+header h1{
+  font-size: 20px;
+}
+
+
+  input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+input:hover{
+transform: scale(1.0);
+}
+
+#but{
+  margin-top: 0px;
+  height: 30px;
+  font-size: 15px;
+  width: 150px;
+}
+
+#section2{
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+.newText {
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 15px;
+
+}
+
+}
